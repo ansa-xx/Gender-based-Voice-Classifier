@@ -15,22 +15,22 @@ This project performs **gender classification (Male / Female)** using audio samp
 ---
 
 ## 📁 Project Structure
-
+```
 gender_classifier/
-├── audio/ # Raw audio files organized by gender
+├── audio/                # Raw audio files organized by gender
 │ ├── male/
 │ ├── female/
 │ └── kid/
-├── data/ # Generated mel-spectrogram images (128x128)
+├── data/                 # Generated mel-spectrogram images (128x128)
 │ ├── male/
 │ ├── female/
 │ └── kid/
-├── save_mel_images.py # Converts audio to mel-spectrogram PNGs
-├── train_gender.py # Training script for CNN model
-├── predict_gender.py # Predict gender for a single audio file
-├── batch_predict.py # Predict gender for a folder of audio files
-└── best_gender_cnn.pth # Trained model weights (PyTorch)
-
+├── save_mel_images.py    # Converts audio to mel-spectrogram PNGs
+├── train_gender.py       # Training script for CNN model
+├── predict_gender.py     # Predict gender for a single audio file
+├── batch_predict.py      # Predict gender for a folder of audio files
+└── best_gender_cnn.pth   # Trained model weights (PyTorch)
+```
 ---
 
 ## ⚙️ How to Run
