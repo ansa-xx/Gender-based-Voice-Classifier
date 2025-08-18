@@ -1,4 +1,4 @@
-# 🎙️ Gender Classification from Voice using Whisper & CNN
+#  Gender Classification from Voice using Whisper & CNN
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.13+-ee4c2c.svg)
@@ -6,15 +6,15 @@
 
 This project performs **gender classification (Male / Female)** using audio samples. It leverages **OpenAI's Whisper** model to extract `log-mel spectrograms`, which are then fed into a **Convolutional Neural Network (CNN)** for classification.
 
-### 🔍 Use-Cases:
-- 🎯 Content recommendation
-- 🔐 Voice-based parental controls
-- 📊 Audience analysis
-- 🔍 Voice-based personalization systems
+### Use-Cases:
+-  Content recommendation
+-  Voice-based parental controls
+-  Audience analysis
+-  Voice-based personalization systems
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 gender_classifier/
 ├── audio/                # Raw audio files organized by gender
@@ -31,9 +31,9 @@ gender_classifier/
 ```
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
-> ✅ **Important:** Update folder and file paths in scripts based on your local setup or environment.
+>  **Important:** Update folder and file paths in scripts based on your local setup or environment.
 
 ### 🔹 Step 1: Preprocess Audio to Mel-Spectrograms
 This will convert `.wav` or `.mp3` files from `audio/` into 128x128 mel-spectrogram images stored in the `data/` directory.
