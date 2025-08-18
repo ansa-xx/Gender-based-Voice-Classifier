@@ -38,23 +38,23 @@ gender_classifier/
 ### 🔹 Step 1: Preprocess Audio to Mel-Spectrograms
 This will convert `.wav` or `.mp3` files from `audio/` into 128x128 mel-spectrogram images stored in the `data/` directory.
 ```bash
-python save_mel_images.py
+python3 save_mel_images.py
 ```
 
 ### 🔹 Step 2: Train the Model
 This script trains a CNN model and saves the trained weights as `best_gender_cnn.pth`.
 ```bash
-python train_gender.py
+python3 train_gender.py
 ```
 
 ### 🔹 Step 3: Predict Gender of a Single Audio File
 This script classifies a single audio file
 ```bash
-python predict_gender.py --input path_to_audio.wav
+python3 predict_gender.py --input path_to_audio.wav
 ```
 
 ### 🔹 Step 4: Batch Predict
 This script classifies all audio files in a folder.
 ```bash
-python batch_predict.py --input path_to_audio.wav
+python3 batch_predict.py --input path_to_audio.wav
 ```
