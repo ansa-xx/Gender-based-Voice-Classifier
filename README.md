@@ -1,4 +1,4 @@
-#  Gender Classification from Voice using Whisper & CNN
+#  Male/Female Classification from Voice using Whisper & CNN
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.13+-ee4c2c.svg)
